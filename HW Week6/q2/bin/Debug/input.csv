@@ -1,0 +1,9 @@
+id, name, family_name, birth_year, salary, is_married, n_chidlern, emp_year
+1, amir, amiri, 1989, 7000, yes, 2, 2010
+2, ali, amiri, 1990, 8000, no, 0, 2011
+3, mohammad, amiri, 1991, 9000, yes, 1, 2012
+4, zahra, marvi, 1992, 10000, no, 0, 2013
+5, maryam, marvi, 1993, 11000, yes, 2, 2014
+6, fatemeh, kargar, 1999, 5000, no, 0, 2011
+7, mohammad, kargar, 1998, 6000, yes, 1, 2012
+8, reza, morad, 2000, 11000, yes, 2, 2014

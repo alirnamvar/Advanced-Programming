@@ -8,76 +8,85 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var golestan = new Golestan();
+            var golestanConsole = new GolestanConsole();
+            golestanConsole.Run();
+        }
 
-            while (true)
+        class GolestanConsole
+        {
+            public void Run()
             {
-                string[] command = Console.ReadLine().Split(' ').ToArray();
-                if (command.Length == 0) continue;
+                var golestan = new Golestan();
 
-                if (command[0] == "register_student")
+                while (true)
                 {
-                    golestan.RegisterStudent(command[1], command[2], int.Parse(command[3]), command[4]);
-                }
-                else if (command[0] == "register_professor")
-                {
-                    golestan.RegisterProfessor(command[1], command[2], command[3]);
-                }
-                else if (command[0] == "make_class")
-                {
-                    golestan.MakeClass(command[1], command[2], command[3]);
-                }
-                else if (command[0] == "add_student")
-                {
-                    golestan.AddStudent(command[1], command[2]);
-                }
-                else if (command[0] == "add_professor")
-                {
-                    golestan.AddProfessor(command[1], command[2]);
-                }
-                else if (command[0] == "student_status")
-                {
-                    golestan.StudentStatus(command[1]);
-                }
-                else if (command[0] == "professor_status")
-                {
-                    golestan.ProfessorStatus(command[1]);
-                }
-                else if (command[0] == "class_status")
-                {
-                    golestan.ClassStatus(command[1]);
-                }
-                else if (command[0] == "set_final_mark")
-                {
-                    golestan.SetFinalMark(command[1], command[2], command[3], command[4]);
-                }
-                else if (command[0] == "mark_student")
-                {
-                    golestan.MarkStudent(command[1], command[2]);
-                }
-                else if (command[0] == "mark_list")
-                {
-                    golestan.MarkList(command[1]);
-                }
-                else if (command[0] == "average_mark_professor")
-                {
-                    golestan.AverageMarkProfessor(command[1]);
-                }
-                else if (command[0] == "average_mark_student")
-                {
-                    golestan.AverageMarkStudent(command[1]);
-                }
-                else if (command[0] == "top_student")
-                {
-                    golestan.TopStudent(command[1], int.Parse(command[2]));
-                }
-                else if (command[0] == "top_mark")
-                {
-                    golestan.TopMark(command[1]);
-                }
-                else if (command[0] == "end")
-                {
-                    break;
+                    string[] command = Console.ReadLine().Split(' ').ToArray();
+                    if (command.Length == 0) continue;
+
+                    if (command[0] == "register_student")
+                    {
+                        golestan.RegisterStudent(command[1], command[2], int.Parse(command[3]), command[4]);
+                    }
+                    else if (command[0] == "register_professor")
+                    {
+                        golestan.RegisterProfessor(command[1], command[2], command[3]);
+                    }
+                    else if (command[0] == "make_class")
+                    {
+                        golestan.MakeClass(command[1], command[2], command[3]);
+                    }
+                    else if (command[0] == "add_student")
+                    {
+                        golestan.AddStudent(command[1], command[2]);
+                    }
+                    else if (command[0] == "add_professor")
+                    {
+                        golestan.AddProfessor(command[1], command[2]);
+                    }
+                    else if (command[0] == "student_status")
+                    {
+                        golestan.StudentStatus(command[1]);
+                    }
+                    else if (command[0] == "professor_status")
+                    {
+                        golestan.ProfessorStatus(command[1]);
+                    }
+                    else if (command[0] == "class_status")
+                    {
+                        golestan.ClassStatus(command[1]);
+                    }
+                    else if (command[0] == "set_final_mark")
+                    {
+                        golestan.SetFinalMark(command[1], command[2], command[3], command[4]);
+                    }
+                    else if (command[0] == "mark_student")
+                    {
+                        golestan.MarkStudent(command[1], command[2]);
+                    }
+                    else if (command[0] == "mark_list")
+                    {
+                        golestan.MarkList(command[1]);
+                    }
+                    else if (command[0] == "average_mark_professor")
+                    {
+                        golestan.AverageMarkProfessor(command[1]);
+                    }
+                    else if (command[0] == "average_mark_student")
+                    {
+                        golestan.AverageMarkStudent(command[1]);
+                    }
+                    else if (command[0] == "top_student")
+                    {
+                        golestan.TopStudent(command[1], int.Parse(command[2]));
+                    }
+                    else if (command[0] == "top_mark")
+                    {
+                        golestan.TopMark(command[1]);
+                    }
+                    else if (command[0] == "end")
+                    {
+                        break;
+                    }
                 }
             }
         }
