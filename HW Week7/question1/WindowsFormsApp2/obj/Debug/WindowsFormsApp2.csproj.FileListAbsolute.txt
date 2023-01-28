@@ -1,0 +1,14 @@
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MainForm.resources
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ClassForm.resources
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ProfessorForm.resources
+C:\Users\alirn\Desktop\AP\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.StudentForm.resources
